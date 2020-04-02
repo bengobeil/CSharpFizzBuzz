@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_CSharpFizzBuzz.1179170802.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.4.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.api.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="CSharpFizzBuzz" t="IncludeRecursive">
+        <e p="Application.cs" t="Include" />
+        <e p="CSharpFizzBuzz.csproj" t="IncludeRecursive" />
+        <e p="Domain.cs" t="Include" />
+        <e p="FizzBuzz" t="Include">
+          <e p="FizzBuzz.cs" t="Include" />
+          <e p="IFizzBuzz.cs" t="Include" />
+        </e>
+        <e p="IO" t="Include">
+          <e p="IInput.cs" t="Include" />
+          <e p="IOutput.cs" t="Include" />
+        </e>
+        <e p="IoC" t="Include">
+          <e p="Application" t="Include">
+            <e p="ApplicationFactory.cs" t="Include" />
+          </e>
+          <e p="Domain" t="Include">
+            <e p="DomainFactory.cs" t="Include" />
+          </e>
+          <e p="Workflow" t="Include">
+            <e p="Domain" t="Include">
+              <e p="DomainWorkflowFactory.cs" t="Include" />
+              <e p="IDomainWorkflowFactory.cs" t="Include" />
+            </e>
+            <e p="IWorkflowFactory.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Parsers" t="Include">
+          <e p="IParser.cs" t="Include" />
+          <e p="Parser.cs" t="Include" />
+        </e>
+        <e p="Validators" t="Include">
+          <e p="IValidator.cs" t="Include" />
+          <e p="Validator.cs" t="Include" />
+        </e>
+        <e p="Workflows" t="Include">
+          <e p="Domain" t="Include">
+            <e p="DomainWorkflow.cs" t="Include" />
+            <e p="IDomainWorkflow.cs" t="Include" />
+          </e>
+          <e p="Exceptions" t="Include">
+            <e p="DomainWorkflowExceptionHandler.cs" t="Include" />
+            <e p="IDomainWorkflowExceptionHandler.cs" t="Include" />
+            <e p="IWorkflowExceptionHandler.cs" t="Include" />
+            <e p="InvalidNumberException.cs" t="Include" />
+            <e p="NotANumberException.cs" t="Include" />
+          </e>
+          <e p="IWorkflow.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CSharpFizzBuzz.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CSharpFizzBuzz.CLI" t="IncludeRecursive">
+        <e p="CSharpFizzBuzz.CLI.csproj" t="IncludeRecursive" />
+        <e p="IO" t="Include">
+          <e p="ConsoleInput.cs" t="Include" />
+          <e p="ConsoleOutput.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CSharpFizzBuzz.CLI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CSharpFizzBuzz.Gorilla" t="IncludeRecursive">
+        <e p="CSharpFizzBuzz.Gorilla.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CSharpFizzBuzz.Gorilla.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CSharpFizzBuzz.Tests" t="IncludeRecursive">
+        <e p="CSharpFizzBuzz.Tests.csproj" t="IncludeRecursive" />
+        <e p="Component" t="Include">
+          <e p="ComponentTests.cs" t="Include" />
+        </e>
+        <e p="Fakes" t="Include">
+          <e p="TestInput.cs" t="Include" />
+          <e p="TestOutput.cs" t="Include" />
+        </e>
+        <e p="FizzBuzzTests.cs" t="Include" />
+        <e p="ParserTests.cs" t="Include" />
+        <e p="ValidatorTests.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CSharpFizzBuzz.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CSharpFizzBuzz.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
